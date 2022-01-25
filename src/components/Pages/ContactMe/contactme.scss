@@ -1,0 +1,37 @@
+.contactme {
+    .header {
+        padding: 0;
+        font-size: 3rem;
+    }
+
+    .contact-form {
+        border: 1px solid black;
+        padding: 30px;
+        width: 90%;
+        margin: 0 auto 0 auto;
+
+        #input-email, #input-name {
+        }
+        
+        .form-input {
+            margin-bottom: 20px;
+
+            .form-label {
+                margin-bottom: 5px;
+            }
+            
+            textarea, input {
+                width: 100%;
+            }
+
+            textarea {
+                height: 150px;
+            }
+        }
+
+        .form-footer {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

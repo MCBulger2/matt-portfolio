@@ -1,0 +1,38 @@
+
+
+
+.page-container {
+    height: calc(100% - 100px);
+    
+    .content {
+        justify-self: stretch;
+        height: 100%;
+        width: 100%;
+    
+        .page.home {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        
+            height: 100%;
+    
+            .main {
+                .heading {
+                    font-size: 5rem;
+                }
+                
+                .subheading {
+                    font-size: 1.5rem;
+                }
+    
+                .buttons {
+                    margin-top: 30px;
+                }
+            }
+    
+            
+        }
+    }
+}
